@@ -1,5 +1,11 @@
+import Hero from "@/components/hero";
+import homeImg from "@/public/home.jpg";
 export default function Home() {
   return (
-    <h1>Main Page</h1>
-  )
+    <Hero
+      imgAlt="tractor factory"
+      imgData={homeImg}
+      title="Professional Cloud Hosting"
+    />
+  );
 }
